@@ -2,7 +2,11 @@ import './App.css';
 function App() {
   return (
     <body className='body'>
+      <div className='navbar'>
+        <Icon/>
         <List />
+        <Social/>
+      </div>
     </body>
   );
 }
@@ -20,4 +24,21 @@ function List (){
   );
 }
 
+function Icon (){
+  return(
+  <>
+    <label className='icon'>
+      SPEBES
+    </label>
+  </>
+  );
+}
+
+function Social(){
+  return(
+    <>
+      <label className='discord'>Discord</label>
+    </>
+  );
+}
 export default App;
