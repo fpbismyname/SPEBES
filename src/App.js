@@ -7,6 +7,11 @@ function App() {
         <List />
         <Social/>
       </div>
+      <div className='content'>
+        <div className='object'>
+          
+        </div>
+      </div>
     </body>
   );
 }
